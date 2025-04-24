@@ -16,12 +16,12 @@
                 <li><a href="#sobre">Sobre Nós</a></li>
                 <li><a href="#nossa-historia">Nossa História</a></li>
                 <li><a href="inscricoes.html">Inscrições</a></li>
-                <li><a href="contatos.html">Contato</a></li>
             </ul>
         </nav>
 
-        <h1>ONG Um Pelo Outro Fazendo o Bem</h1>
-        <p>Fazendo o bem sem olhar a quem!</p>
+        <div class="titulo"><h1>ONG Um Pelo Outro Fazendo o Bem</h1>
+           <p>Fazendo o bem sem olhar a quem!</p>
+        </div>
     </header>
 
     <!-- Nossa História -->
@@ -37,12 +37,13 @@
         <h3>O que fazemos:</h3>
 
        <div class="carrossel">
-            <div id="slides">
-                 <img src="imagem1.jpg" alt="Imagem 1">
-                 <img src="imagem2.jpg" alt="Imagem 2">
-                <img src="imagem3.jpg" alt="Imagem 3">
-             </div>
+            <div id="slides"> <img src="img1.jpeg" alt="Imagem 1">
+             <img src="img2.jpeg" alt="Imagem 1">
+             <img src="img3.jpeg" alt="Imagem 1">
+            </div>
+
         <div class="botoes">
+
             <button onclick="mudarSlide(-1)">&#10094;</button>
      
             <button onclick="mudarSlide(1)">&#10095;</button>
@@ -57,7 +58,9 @@
         <h2>Inscrições</h2>
         <h3>Seja você também um de nós...</h3>
         <p>Você pode se inscrever como voluntário, doador ou parceiro de nossa ONG. Juntos, podemos criar um impacto positivo e mudar a vida de muitas pessoas! Escolha como deseja contribuir e faça parte dessa corrente de solidariedade.</p>
-        <a href="inscricoes.html"><button>INSCRIÇÕES</button></a>
+        <a href="inscricoes.html"><button class="inscricao-btn">
+            <i></i> INSCREVA-SE
+        </button></a>
     </section>
 
     <!-- Feed -->
@@ -71,12 +74,11 @@
         <h2>Entre em Contato Conosco</h2>
         <p>Tem alguma dúvida ou gostaria de saber mais sobre nossos projetos? Entre em contato com nossa equipe! Estamos à disposição para esclarecer todas as suas perguntas.</p>
         <div class="botoes-contato">
-            <a href="#"><button>ZAP</button></a>
-            <a href="#"><button>INSTA</button></a>
-            <a href="#"><button>EMAIL</button></a>
+            <a href="#"><button class="zap">ZAP</button></a>
+            <a href="#"><button class="insta">INSTA</button></a>
+            <a href="#"><button class="email">EMAIL</button></a>
         </div>
     </section>
-
     <!-- Rodapé -->
     <footer class="rodape">
         <p>&copy; 2025 UPOFOB - Todos os direitos reservados.</p>
